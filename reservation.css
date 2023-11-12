@@ -1,0 +1,65 @@
+/* Apply a style reset to remove default margins and paddings */
+body, h1, form, select, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the content on the page */
+body, h1, form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Style the form container */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style labels */
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Style select and input fields */
+select, input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the reservation button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the reservation button on hover */
+button:hover {
+    background-color: #0056b3;
+}

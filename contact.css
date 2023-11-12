@@ -1,0 +1,76 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0; /* Remove default body margin */
+        }
+
+        .contact-content {
+            text-align: center;
+            margin: 20px auto; /* Set margin-top and margin-bottom to auto */
+            width: 65%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          }
+          
+        .form-container {
+            width: 100%;
+            box-sizing: border-box; /* Include padding and border in the width */
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+            text-align: left; /* Align labels to the left */
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #d51717;
+            color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px; /* Add some space between the form and footer */
+        }
+
+        .footer-content p {
+            margin: 0;
+        }
+
+        .social-icons {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        .social-icons li {
+            margin-right: 10px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+ 

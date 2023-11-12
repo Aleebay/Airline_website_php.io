@@ -1,0 +1,134 @@
+/* Complete CSS style for Cancellation page */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Dark gray text */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #bb0000; /* Red header background */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #fff; /* White text */
+}
+
+nav {
+    background-color: #fff; /* White background */
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #bb0000; /* Red text */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700; /* Gold on hover */
+}
+
+.cancellation-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancellation-content {
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #bb0000; /* Red background */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffd700; /* Gold on hover */
+}
+
+/* Style the footer section */
+footer {
+    background-color: #bb0000; /* Red background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer img {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff; /* White text */
+    font-size: 24px; /* Larger icon size */
+}
+
+/* Font Awesome icons */
+.social-icons a i {
+    margin-right: 5px;
+}
